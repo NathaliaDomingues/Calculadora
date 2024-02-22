@@ -84,3 +84,9 @@ button:active{
     transform: scale(0,3);
     box-shadow: 2px 4px 1px #ebd037;
 }
+
+footer{
+     background-color: #cf7e05;
+    text-align: center;
+    margin-right: 80%;
+}
