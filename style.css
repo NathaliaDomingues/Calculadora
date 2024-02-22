@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: fonte1;
+    src: url(Argue\ DEMO.otf);
+}
+
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/05/87/50/10/360_F_587501094_nDBrIX2KWkKXLnYkC1AU4enX0MQiJb09.jpg);
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 2em;
+    color: rgb(255, 255, 255);
+    font-family: fonte1;
+    box-shadow: 6px 5px 1px #fca400;
+}
+
+#calculator{
+    max-width: 360px;
+    background-color: #ebd037;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 9px 1px 2px orange ;
+}
+
+#display{
+    width: 100%;
+    height: 70px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 26px;
+    border-radius: 90px;
+    color: black;
+    background: #ffffb4;
+    border: none;
+    box-sizing: border-box;
+}
+
+button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    color: #814e00;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 2px 4px 1px #cf7e05;
+}
+
+.operator{
+    color: #814e00;
+}
+
+#ac{
+    color: #244b00;
+}
+
+#de{
+    color: #244b00;
+}
+
+.equal{
+    width: calc(50% - 12px);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0,3);
+    box-shadow: 2px 4px 1px #ebd037;
+}
